@@ -1,10 +1,10 @@
 # IDE folders
-./.idea/
-./vscode/
+.idea/
+vscode/
 
 # Build folders
-./build/
-./dist/
+build/
+dist/
 
 # yarn/npm deep
 package-lock.json
