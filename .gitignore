@@ -7,4 +7,5 @@ build/
 dist/
 
 # yarn/npm deep
+node_modules/
 package-lock.json
