@@ -1,9 +1,8 @@
 import express from 'express'
 import cors from 'cors'
-import * as config from 'dotenv'
+import { config } from "../config"
 
-config.config()
-const PORT = process.env.PORT
+const PORT = config.PORT || 3000
 
 /** init application */
 const app = express()
