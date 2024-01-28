@@ -6,7 +6,7 @@
   "scripts": {
     "dev:test-command": "nodemon --watch \"src/**\" --ext \"ts,json\" --exec \"npm run start\"",
     "dev": "nodemon --watch \"src/**\" --ext \"ts,json\" --exec \"ts-node src/index.ts\"",
-    "start": "npm run build && node dist/bundle.js",
+    "start": "npm run build && node dist/index.js",
     "build": "webpack --config webpack.config.ts --mode=production"
   },
   "keywords": [],
